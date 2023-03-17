@@ -1,0 +1,9 @@
+BEGIN;
+
+DROP TABLE IF EXISTS member_roles CASCADE;
+DROP TABLE IF EXISTS discord_guild_roles CASCADE;
+DROP TABLE IF EXISTS guild_members CASCADE;
+DROP TABLE IF EXISTS discord_guilds CASCADE;
+DROP TABLE IF EXISTS discord_users CASCADE;
+
+END;

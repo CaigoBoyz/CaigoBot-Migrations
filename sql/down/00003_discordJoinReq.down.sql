@@ -1,0 +1,8 @@
+BEGIN;
+
+DROP TABLE IF EXISTS join_req_spool CASCADE;
+DROP TABLE IF EXISTS guild_cmds CASCADE;
+DROP TABLE IF EXISTS discord_bot_cmds CASCADE;
+DROP TABLE IF EXISTS guild_stream_rooms CASCADE;
+
+END;
